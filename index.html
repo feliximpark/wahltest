@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bundestagswahl 2017 in Braunschweig</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.42.1/mapbox-gl.js'></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src='script/data.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.42.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<div id="map"></div>
+<div id="message"><h2>Für mehr Infos auf Wahlbezirk klicken! </h2></div>
+<div id="infobox">
+    <div id="close"><img id="closeimg" src="img/close-button.png" alt="close button"></div>
+    <h2>Wahllokal</h2><hr>
+    <div id="wahllokal"><h3>Bitte Wahllokal auswählen!</h3></div>
+    <div id="bar"></div><br>
+    <div id="results"></div>
+    <div id="map_popup"></div>
+</div>
+
+<script src='script/script.js'></script>
+</body>
+</html>
